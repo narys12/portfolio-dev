@@ -1,6 +1,15 @@
 <template>
   <div>
-    <v-toolbar>
+    <v-toolbar flat>
+      <v-spacer></v-spacer>
+      <v-toolbar-side-icon class="hidden-md-and-up"></v-toolbar-side-icon>
+      <v-toolbar-items class="hidden-sm-and-down">
+        <v-btn flat>Home</v-btn>
+        <v-btn flat>About</v-btn>
+        <v-btn flat>Web Crawling</v-btn>
+        <v-btn flat>Web Development</v-btn>
+        <v-btn flat>Contact</v-btn>
+      </v-toolbar-items>
     </v-toolbar>
     <Home/>
     <About/>
@@ -17,9 +26,12 @@
   import Dev from '~/components/Dev'
   import Contact from '~/components/Contact'
 
-  export default{
+  export default {
     components: {
-      Home, Crawl, Dev, Contact
+      Home,
+      Crawl,
+      Dev,
+      Contact
     }
   }
 </script>
