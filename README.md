@@ -19,4 +19,29 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out the [Nuxt.js](https://github.com/nuxt/nuxt.js) and [Vuetify.js](https://vuetifyjs.com/) documentation.
+Home About Web Crawling Web Dev Contact
+
+Home : 
+ - menu top right
+ - logo centered
+ - short description under logo
+ - start button for navigation
+
+About :
+ - Description centered
+
+Web crawling
+ - client 
+ - us
+ - result
+ - timeline
+ - technologies used
+
+Web dev
+ - front 
+ - back
+ - mobile
+ - technologies used
+
+Contact 
+ - forms
