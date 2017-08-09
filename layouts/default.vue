@@ -1,5 +1,5 @@
 <template>
-  <v-app light toolbar footer>
+  <v-app toolbar footer>
     <nuxt/>
   </v-app>
 </template>
