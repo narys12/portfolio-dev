@@ -22,9 +22,9 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ['vuetify']
+    vendor: ['vuetify', 'vue-particles']
   },
-  plugins: ['~plugins/vuetify.js'],
+  plugins: ['~plugins/vuetify.js', {src: '~plugins/vue-particles', ssr: false}],
   css: [
     { src: '~assets/style/app.styl', lang: 'styl' }
   ]
