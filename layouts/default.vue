@@ -3,3 +3,19 @@
     <nuxt/>
   </v-app>
 </template>
+
+<style>
+
+  html, body {
+    height: 100%;
+    min-height: 100%;
+  }
+
+  #app {
+    height: 100vh;
+  }
+
+  * {
+    font-family: 'Iceland', cursive;
+  }
+</style>
