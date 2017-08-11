@@ -13,7 +13,7 @@
   </v-toolbar>
   <v-navigation-drawer class="pb-0" persistent absolute height="100%" dark enable-resize-watcher temporary v-model="drawer">
     <v-list dense>
-      <v-subheader class="mt-3 grey--text text--darken-1">MEGA BAND</v-subheader>
+      <v-subheader class="mt-3 grey--text text--darken-1">MEGA BANG</v-subheader>
       <v-list-tile class="mt-3">
         <v-list-tile-action>
           <v-icon class="grey--text text--darken-1">home</v-icon>
@@ -117,6 +117,6 @@
     }
 
     .btn-next {
-        z-index: 99;
+        z-index: 1;
     }
 </style>
