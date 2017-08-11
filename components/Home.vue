@@ -11,49 +11,72 @@
                 <v-btn flat>Contact</v-btn>
             </v-toolbar-items>
         </v-toolbar>
-            <div class="main-section">
-                <div class="title">
-                    <h2>Mega Bang</h2>
-                </div>
+        <div class="main-section">
+            <div class="title">
+                <h2>Mega Bang</h2>
+                <h4>The birth of a dream</h4>
+
             </div>
-            <vue-particles color="#dedede" :particleOpacity="1" :particlesNumber="80" shapeType="circle" :particleSize="4" linesColor="#dedede"
-                :linesWidth="1" :lineLinked="true" :lineOpacity="0.4" :linesDistance="150" :moveSpeed="3" :hoverEffect="true"
-                hoverMode="grab" :clickEffect="true" clickMode="push">
-            </vue-particles>
+        </div>
+        <div class="next mb-3">
+            <v-btn icon dark class="transparent btn-next">
+                <v-icon large>arrow_downward</v-icon>
+            </v-btn>
+        </div>
+
+        <vue-particles color="#dedede" :particleOpacity="1" :particlesNumber="80" shapeType="circle" :particleSize="4" linesColor="#dedede"
+            :linesWidth="1" :lineLinked="true" :lineOpacity="0.4" :linesDistance="150" :moveSpeed="3" :hoverEffect="true" hoverMode="grab"
+            :clickEffect="true" clickMode="push">
+        </vue-particles>
     </div>
 
 </template>
 
 <style lang="css" scoped>
+    #wrap-banner {
+        text-align: center;
+    }
+    
     #particles-js {
         background-color: black;
-        height: 100vh;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    #wrap-banner {
-        position: relative;
-    }
-
-    .main-section {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
+    }
+    
+    .main-section {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
         display: -webkit-flex;
         display: flex;
         justify-content: center;
-        align-items: center;
     }
-
-    .title>h2 {
-        font-size: 7rem;
-        font-weight: bold;
+    
+    .title {
+        z-index: 99;
+    }
+    
+    h2,
+    h4 {
+        margin: 0;
+    }
+    
+    .next {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    .btn-next {
+        z-index: 99;
     }
 </style>

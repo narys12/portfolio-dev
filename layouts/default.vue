@@ -5,16 +5,22 @@
 </template>
 
 <style>
-
-  html, body {
+  html,
+  body {
     height: 100%;
     min-height: 100%;
   }
-
+  
   #app {
     height: 100vh;
   }
-
+  
+  *,
+  :after,
+  :before {
+    box-sizing: border-box;
+  }
+  
   * {
     font-family: 'Iceland', cursive;
   }
